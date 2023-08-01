@@ -1,0 +1,75 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    z-index: 99999999;
+}
+.b-popup .b-popup-content{
+    margin:40px auto 0 auto;
+    width:700px;
+    height: 40px;
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0 0 10px #000;
+    z-index: 999999999999;
+}
+
+.Technical__assistance-string{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.Technical__assistance-left{
+    max-width: 70%;
+    max-height: 500px ;
+}
+
+.Technical__assistance-right{
+    max-width: 50%;
+}
+
+@media (max-width: 768px){
+    .Technical__assistance-string{
+        flex-direction: column;
+       justify-content: center;
+       margin: 0 auto;
+       width: 100%;
+       padding-left: 25%;
+    }
+    .medical__evacuation-second{
+        flex-direction: column-reverse;
+    }
+
+    .medical__evacuation-width{
+        display: none;
+    }
+
+    .helicopter__wrapper{
+        max-width: 500px;
+    }
+
+}
+
+
+@media (max-width: 425px){
+  
+}
+
+@media (max-width: 375px){
+
+
+}
+
+@media (max-width: 325px){
+ 
+
+}

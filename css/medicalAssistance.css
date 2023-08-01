@@ -1,0 +1,71 @@
+.Medical__assistance-content{
+    margin-bottom: 50px;
+}
+.Medical__assistance-string{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+.Medical__assistance-image{
+    max-width: 40%;
+    max-height: 300px;
+}
+
+.list__dots{
+    list-style:disc;
+    color: #1D2A4D;
+}
+.medical-ass-column{
+    display: flex; 
+    margin-right: 30px;
+}
+
+@media (max-width: 1024px){
+
+}
+
+@media (max-width: 768px){
+
+    .Medical__assistance-string{
+        flex-direction: column;
+    }
+    
+    .Medical__assistance-string1{
+        margin-right: 62px;
+    }
+    .medical-ass-column{
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .mob-none-pct{
+        display: none;
+    }
+    .mobile-column{
+        margin-left: 50px;
+    }
+    .mobile-column-medical{
+        margin-left: 30px;
+    }
+    .mobile_left-list{
+        margin-left: -110px;
+    }
+    .medical__tourism-image{
+        margin-left: 25%;
+    }
+}
+
+@media (max-width: 425px){
+   .list__dots{
+    font-size: smaller;
+   }
+   .partners_first-string{
+    display: none;
+   }
+   .mobile_left-list{
+    margin-left: 40px;
+}
+.medical__tourism-image{
+    margin: 0 auto;
+}
+}

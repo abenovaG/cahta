@@ -1,0 +1,12 @@
+.medical__tourism-content{
+    display: flex;
+    gap: 50px;
+}
+
+.medical__tourism-text{
+    width: 60%;
+}
+
+.Medical__tourism{
+    padding-bottom: 70px;
+}

@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');  
+
+@import './slider.css';
+@import './header.css';
+@import './about.css';
+@import './button.css';
+@import './services.css';
+@import './partners.css';
+@import './footer.css';
+@import './shortBen.css';
+@import './medicalAssistance.css';
+@import './medicalTourism.css';
+@import './technicalAssistance.css';
+@import './lifestyle.css';
+@import './evacuation.css';
+@import './security.css';
+@import './contact-form.css';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.akeconsa-udaneles{
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 9;
+}
+.akeconsa-udaneles a {
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  background: red;
+  display: block;
+  border-radius: 2px;
+}
+.akeconsa-udaneles a span {
+  color: #f7f0f0;
+  font-size: 30px;
+  line-height: 42px;
+  cursor: pointer;
+}
+
+.b-popup{
+  width:100%;
+  min-height:100%;
+  background-color: rgba(0,0,0,0.5);
+  overflow:hidden;
+  position:fixed;
+  top:0;
+  z-index: 99999999;
+}
+.b-popup .b-popup-content{
+  margin:40px auto 0 auto;
+  width:700px;
+  height: 40px;
+  padding:10px;
+  background-color: #c5c5c5;
+  border-radius:5px;
+  box-shadow: 0 0 10px #000;
+  z-index: 999999999999;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  
+}
+
+.container{
+  margin: 0 auto !important;
+  max-width: 1366px !important;
+  
+}
+
+
+.content h1{
+  color: red;
+}
+
+.rotate-phone{
+  display: none;
+  width: 30px;
+  height: 30px;
+}
+
+.about_margintop{
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 39px;
+  margin: 50px auto 0;
+  width: 30%;
+  border-bottom-width: 4px ;
+  color: #1D2A4D;
+
+}
+
+.legend{
+  border:500px solid transparent;
+  border-left:800px solid rgba(52, 73, 94, .7);
+  border-bottom:0;
+  position:absolute;
+  bottom:0;
+  left: 0;
+}
+
+.slider-left-text{
+  position: absolute;
+  max-width: 35%;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+}
+
+.slider-left-text h1{
+  font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 39px;
+padding-bottom: 30px;
+  color: red;
+}
+.slider-left-text p{
+  font-size: 14px;
+}
+
+
+.service_img-wrapper:hover{
+  background: gray;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+p{
+  color: #1D2A4D;
+}
+
+.Service__title{
+  font-style: normal;
+  padding-bottom: 30px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #1D2A4D;
+}
+
+.nav__link:hover{
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.title_bottom{
+  margin-bottom: 15px;
+  width: 30%;
+  border-bottom-width: 4px;
+}
+
+@media (max-width: 768px){
+  .medical__tourism-content{
+    flex-direction: column;
+  }
+  .medical__tourism-text{
+    width: 100%;
+  }
+
+  .medical__tourism-p{
+    padding-right: 30px;
+    padding-left: 30px;
+   width: 100%;
+   text-align: justify;
+  }
+
+  .medical__tourism-list{
+    padding-left: 30px;
+  }
+
+}
+
+
+@media (max-width: 425px){
+
+  .footer__content{
+  }
+  .rotate-phone{
+    margin: 10px auto 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+
+  }
+}
+
+@media (max-width: 375px){
+
+
+}
+
+@media (max-width: 325px){
+ 
+
+}
+

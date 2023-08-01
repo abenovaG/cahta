@@ -1,0 +1,15 @@
+.LifeStyle{
+    padding-bottom: 50px;
+}
+.lifestyle__content{
+    display: flex;
+}
+
+.lifestyle__left{
+    max-width: 65%;
+}
+
+.life__style-display-list{
+    display: flex;
+    gap: 30px;
+}

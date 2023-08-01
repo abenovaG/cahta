@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./images/Footer/logoWhite.png" rel="icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>C.A.H.T.A.D</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      .medical__evacuation-content{
+    gap: 50px;
+}
+
+.medical__evacuation-first-image{
+  width: 100%;
+}
+.ev-img{
+  width: 100%;
+} 
+
+.medical__evacuation-second-image{
+    max-width: 70%;
+}
+
+.medical__evacuation-second1{
+    margin-top: 50px !important;
+}
+
+.medical__evacuation-first,.medical__evacuation-second{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.Evacuation__suptitle{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #1D2A4D;
+}
+
+.helicopter__wrapper1{
+    max-width: 50% !important;
+}
+
+.medical__evacuation-width{
+    text-align: center;
+}
+
+
+.medical__evacuation-width{
+}
+
+.Evacuation__suptitle1{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 39px;
+    margin: 50px auto 0;
+    width: 50%;
+    border-bottom-width: 4px ;
+    /* color: #1D2A4D; */
+    color: red;
+}
+
+.helicopter__wrapper{
+    max-width: 60%;
+}
+
+.list-wrapper{
+    margin-top: 30px;
+}
+
+
+
+@media (max-width: 768px){
+
+    body{
+        overflow-x: hidden;
+    }
+    .medical__evacuation-first, .medical__evacuation-second{
+        flex-direction: column;
+       justify-content: center;
+       margin: 0 auto;
+       width: 70%;
+    }
+    .medical__evacuation-second{
+        flex-direction: column-reverse;
+    }
+
+    .medical__evacuation-width{
+        display: none;
+    }
+
+    .helicopter__wrapper{
+        max-width: 500px;
+    }
+    .helicopter__wrapper1{
+        max-width: 100% !important;
+    }
+
+    .left-wrapper{
+        flex-wrap: wrap;
+    }
+    .short-ben__text{
+        font-size: smaller;
+    }
+    .short__ben-content{
+        max-height: 200px;
+        max-width: 200px;
+    }
+    .about_company-info{
+        max-width: 80%;
+    }
+    .about__text{
+        max-width: 80%;
+    }
+
+    .clocks{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media only screen and (max-width: 425px){
+    .short__benefits{
+        display: none ;
+    }
+}
+
+@media (max-width: 375px){
+
+
+}
+
+@media (max-width: 325px){
+ 
+
+}
+    </style>
+  </head>
+  <body>
+    <section class="navigation">
+        <div class="container">
+          <div class="brand">
+            <a href="index.html"><img class="header__logo" src="./images/Logo/norm-logo.png" alt=""></a>
+            <p class="logo-right-text" style="font-size: 16px;">OPERATE <span style="color:red;">24/7</span> AROUND THE CLOCK ALL YEAR LONG</p>
+          </div>
+          <nav>
+            <div class="nav-mobile">
+              <a id="nav-toggle" href="#!"><span></span></a>
+            </div>
+            <ul class="nav-list">
+              <li class="nav__item">
+                <a class="nav__link" href="./indexRu.html">Главная</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="./aboutRu.html">О нас</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#!">Сервисы</a>
+                <ul class="nav-dropdown">
+                  <li class="nav__item">
+                    <a class="nav__link" href="./MedicalAssisstanceRu.html">Медицинская помощь</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="./MedicalEvacuationRu.html">Наземно-воздушная скорая помощь </a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="./TechnicalAssistanceRu.html">Техническая помощь </a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="./MedicalTourismRu.html">Медицинский туризм</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="./LifeStyleRu.html">Образ жизни и помощь в путешествии</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="./SecurityRu.html">C.A.H.T.A. <span style="color: red;">D</span>-Безопасность</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="./contactRu.html">Контакты</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="./MedicalEvacuation.html">En</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+    <section class="slider">
+      <div class="slide slide-evac current">
+        <div class="legend"></div>
+        <div class="slider-left-text">
+          <h1 class="Our__mission-title">Медицинские перевозки и поддержка по всему миру</h1>
+          <p class="slider__text">Все наши медицинские услуги, помощь в поездках и досуге были одобрены нашими инспекторами по контролю качества, мы объединяем наши ресурсы и опыт вместе с нашими партнерами и поставщиками, чтобы предоставить вам лучшие услуги в соответствии с высокими международными стандартами.</p>
+        </div>
+        <div class="content">
+          <div class="mission_vision">
+            <h1 class="Our__mission-title">Наша цель</h1>
+            <p class="Our__mission-text">
+                Быть для вас стабильным, надежным и доверенным партнером, предоставляющим отличный сервис, который будет наилучшим образом соответствовать вашим ожиданиям и требованиям.  
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="slide slide-evac current">
+        <div class="legend">
+        </div>
+        <div class="slider-left-text">
+          <h1 class="Our__mission-title">Организация поездок</h1>
+          <p class="slider__text">Мы предлагаем вам авиабилеты, отдых по системе «все включено», лучшие семейные курорты и роскошные каникулы до нужного вам места назначения, а также, предлагая лучшие маршруты от профессиональных агентов, которые найдут для вас лучший вариант, чтобы вы получили максимальную отдачу, комфортное путешествие и фантастический отдых, наша диспетчерская служба 24/7 к вашим услугам, чтобы помочь с любым вопросом или поддержать круглосуточно в течение всего года</p>
+        </div>
+        <div class="content">
+          <h1 class="Our__mission-title">Наша задача</h1>
+          <p class="Our__mission-text">
+            Предоставление легких, простых ответов и быстрая обратная связь, точное выполнение сроков, сдерживания затрат и надежные решения для наших клиентов в странах Центральной Азии.
+          </p>
+        </div>
+      </div>
+      <div class="slide slide-evac current">
+        <div class="legend">
+        </div>
+        <div class="slider-left-text">
+          <h1 class="Our__mission-title">Медицинские направления <br> / вызов на дом</h1>
+          <p class="slider__text">Мы обеспечиваем быстрый прием и доставку в ближайшее медицинское учреждение, благодаря обширной базе поставщиков медицинских услуг по всей Центральной Азии, а также организуем выезд врача на дом и в гостиницу.</p>
+        </div>
+        <div class="content">
+            <div class="mission_vision">
+              <h1 class="Our__mission-title">Наша цель</h1>
+              <p class="Our__mission-text">
+                  Быть для вас стабильным, надежным и доверенным партнером, предоставляющим отличный сервис, который будет наилучшим образом соответствовать вашим ожиданиям и требованиям.  
+              </p>
+            </div>
+          </div>
+      </div>
+      <div class="slide slide-evac current">
+        <div class="legend">
+        </div>
+        <div class="slider-left-text">
+          <h1 class="Our__mission-title">Мониторинг состояния <br> и гарантия медицинских расходов   </h1>
+          <p class="slider__text">Мы предоставляем ежедневную информацию о состоянии пациента, а также о лечении и мониторинге расходов. Все расходы, связанные с лечением, могут быть гарантированы от имени нашего клиента в соответствии с соглашениями GOP, которые мы заключили с поставщиками.</p>
+        </div>
+        <div class="content">
+            <h1 class="Our__mission-title">Наша задача</h1>
+            <p class="Our__mission-text">
+              Предоставление легких, простых ответов и быстрая обратная связь, точное выполнение сроков, сдерживания затрат и надежные решения для наших клиентов в странах Центральной Азии.
+            </p>
+          </div>
+      </div>
+      <!-- <div class="slide slide-evac">
+        <div class="legend"></div>
+        <div class="slider-left-text">
+          <h1 class="Our__mission-title">COMPREHENSIVE SOLUTIONS <br> & HIGH STANDARD</h1>
+          <p class="slider__text">WE PARTNER WITH LEADING SERVICE PROVIDERS AND COMPANIES IN CENTRAL ASIA, AS WELL AS A WIDE RANGE OF INTERNATIONAL ORGANIZATIONS OF SERVICES PROVIDERS. THIS ALLOWS US TO ENSURE THE HIGHEST QUALITY PERFORMANCE TO OUR END-CLIENT IN THE MOST CONVENIENT, TIMELY AND COST-EFFECTIVE WAY.</p>
+        </div>
+        <div class="content">
+          <h1 class="Our__mission-title">OUR MISSION</h1>
+          <p class="Our__mission-text">
+            Our Mission is to deliver easy and simple, quick response, accurate
+            schedule compliance, cost containment and reliable solutions for our
+            customers in Central Asia countries.
+          </p>
+        </div>
+      </div> -->
+      <div class="slide slide-evac current">
+        <div class="legend">
+        </div>
+        <div class="slider-left-text">
+          <h1 class="Benefits-title">Досуг</h1>
+          <p class="slider__text">Наши консьержи-эксперты предоставят широкий выбор роскошных продуктов, таких как отели, спа и роскошные ретриты, VIP-транспорт по Центральной Азии для удовлетворения ваших потребностей, которые сделают вашу поездку, работу или просто пребывание в другой стране спокойным, приятным и комфортным.
+          </p>
+        </div>
+        <div class="content">
+            <h1 class="Our__mission-title">Наша задача</h1>
+            <p class="Our__mission-text">
+              Предоставление легких, простых ответов и быстрая обратная связь, точное выполнение сроков, сдерживания затрат и надежные решения для наших клиентов в странах Центральной Азии.
+            </p>
+          </div>
+      </div>
+    </section>
+    <div class="buttons">
+      <button class="prev-btn">&leftarrow;</button>
+      <button class="next-btn">&rightarrow;</button>
+    </div>
+
+      <section class="medical__evacuation">
+        <h4 class="about__title about__title1">УСЛУГИ НАЗЕМНОЙ СКОРОЙ ПОМОЩИ </h4>
+        <div class="container">
+            <div class="medical__evacuation-content">
+              <div class="medical__evacuation-first">
+                    <div class="medical__evacuation-first-image">
+                      <img src="./images/medical__evacuation/11.png" alt="">
+                    </div>
+                    <div>
+                      <p>  Мы предлагаем круглосуточную наземную и воздушную скорую помощь с использованием широкого спектра лицензированных наземных и санитарных самолетов, современного медицинского оборудования и опытных врачей, медсестер, фельдшеров и другого персонала для обеспечения безопасности, перевозку и ‎наблюдение.  ‎</p>
+                    <h4 class=" Evacuation__suptitle about__title1">УСЛУГИ НАЗЕМНОЙ СКОРОЙ ПОМОЩИ </h4>
+                    <ul>
+                      <li class="list__dots">Скорая помощь, реаниматологическая помощь, наземная скорая помощь</li>
+                      <li class="list__dots">Перевозка пациентов в экстренных/неэкстренных случаях в дома престарелых, клиники, больницы, отели и аэропорты.</li>
+                      <li class="list__dots">Медицинское обслуживание во время массовых мероприятий, включая пункты первой помощи на территории, специальные машины скорой помощи и фельдшеров.</li>
+                      <li class="list__dots">Перевозка пациентов между аэропортами и медицинскими учреждениями (доставка пациентов из самолета в учреждения)</li>
+                      <li class="list__dots">Выездная клиника в любой точке мира</li>
+                    </ul>
+                    </div>
+              </div>
+              <h4 class="about__title about__title1">C <span style="color: #354F8E;">C.A.H.T.A.<span style="color:red;">D</span> <span style="color:#354F8E">небо не предел</span></span></h4>
+
+
+              <div class="medical__evacuation-second">
+                <div class="helicopter__wrapper">
+                  <h4 class=" Evacuation__suptitle about__title1">СЛУЖБА СКОРОЙ ПОМОЩИ НА СПАСАТЕЛЬНОМ ВЕРТОЛЕТЕ </h4>
+                  <p>Из-за гористой местности в Средней Азии иногда невозможно добраться до больного наземной машиной скорой помощи, и единственным решением является использование спасательного медицинского вертолета. Мы установили сотрудничество с аварийными вертолетами, готовыми помочь нам 24/7 с профессиональными спасательными бригадами врачей, медсестер и фельдшеров.</p>
+                <h4 class=" Evacuation__suptitle about__title1">СЛУЖБА ВОЗДУШНОЙ СКОРОЙ ПОМОЩИ</h4>
+                <ul>
+                  <li class="list__dots">Подбор санитарной авиации, включая медицинскую бригаду и современное медицинское оборудование для полетов неотложной медицинской помощи в соответствии с состоянием здоровья и потребностями пациента, а также затраченным временем полета.</li>
+                </ul>
+                </div>
+                <div class="medical__evacuation-second-image">
+                  <img src="./images/medical__evacuation/helicopternew.png" alt="">
+                </div>
+              </div>
+              <div class="medical__evacuation-first">
+                <div class="medical__evacuation-first-image">
+                  <img src="./images/medical__evacuation/3.png" alt="">
+                </div>
+                <div>
+                <h4 class=" Evacuation__suptitle about__title1">КОММЕРЧЕСКИЕ РЕЙСЫ И МЕДИЦИНСКОЕ СОПРОВОЖДЕНИЕ</h4>
+                <ul>
+                  <li class="list__dots">•	Предварительное медицинское обследование нашими врачами для определения наиболее подходящего вида транспорта.</li>
+                  <li class="list__dots">Авиабилеты для пациента, члена медицинской бригады и сопровождающего (где применимо)</li>
+                  <li class="list__dots">•	Получение медицинского разрешения авиакомпании и правительственной документацию по мере необходимости.</li>
+                  <li class="list__dots">•	Приоритетное размещение и рассадка</li>
+                  <li class="list__dots">Бронирование коммерческих рейсов с учетом состояния пациента с группой медицинского персонала, сопровождающей пациента во время полета, выписки из больницы и повторной госпитализации в пункте назначения.</li>
+                </ul>
+                </div>
+          </div>
+          <div class="medical__evacuation-second">
+            <div class="helicopter__wrapper">
+            <ul class="list-wrapper">
+              <li class="list__dots">•	Мобилизация хорошо обученных фельдшеров на земле и в воздухе для оказания медицинской помощи от палаты до палаты до тех пор, пока пациент не доберется до места назначения.</li>
+              <li class="list__dots">•	Полное медицинское обследование и мониторинг на протяжении всей перевозки</li>
+              <li class="list__dots">•	Наземный транспорт для конкретного пациента в пункте отправления и назначения</li>
+              <li class="list__dots">•	Организация сопровождения врачом или любой другой медицинской бригадой групп путешественников по Центральной Азии.</li>
+              <li class="list__dots">Выездные медицинские клиники в любой точке мира</li>
+            </ul>
+            </div>
+            <div class="medical__evacuation-second-image">
+              <img src="./images/medical__evacuation/grond_escort.png" alt="">
+            </div>
+          </div>
+          <h4 class="Evacuation__suptitle1 about__title1 uppercase">В случае смерти мы призываем наших клиентов немедленно связаться с нами, чтобы организовать своевременную транспортировку и захоронение.  Для нас крайне важно, чтобы перевозка была безопасной и удобной </h4>
+          <div class="medical__evacuation-second medical__evacuation-second1 ">
+            <div class="helicopter__wrapper helicopter__wrapper1">
+              
+            <h4 class="Evacuation__suptitle about__title1">РЕПАТРИАЦИЯ ОСТАНКОВ УМЕРШЕГО </h4>
+            <ul style="margin-bottom: 20px;">
+              <li class="list__dots">•	Организация безопасной и своевременной перевозки умершего</li>
+              <li class="list__dots">•	Получение всех необходимых государственных разрешений, лицензий и других документов на транспортировку и захоронение.</li>
+              <li class="list__dots">•	Помощь во всех аспектах захоронения в Центральной Азии, включая выбор места захоронения, установку гробов и надгробий, а также организацию постоянного ухода.</li>
+            </ul>
+            <p>Все услуги могут быть организованы или предоставлены по всему миру через нашу обширную сеть экспертов и поставщиков услуг. Более подробная информация о спектре международных услуг, географическом охвате и ценах будет предоставлена по запросу.</p>
+            </div>
+            <div style="padding-left: 200px;" class="medical__evacuation-second-image medical__evacuation-width">
+              <h4 class=" Evacuation__suptitle  about__title1">Когда время может спасти жизнь, мы просим вас связаться с нами как можно скорее, чтобы мы могли помочь вам быстро и эффективно</h4>
+              <img class="evacuation-repat-img" src="./images/medical__evacuation/Repatriation-of-Mortal-Remains 1.png" alt="">
+            </div>
+          </div>
+            </div>
+        </div>
+      </section>
+
+      
+
+    
+  
+ 
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__left">
+              <h3 style="margin-bottom: 30px;" class="footer__text">С.A.H.T.A.<span style="color: red">D</span> </h3>
+                <h3 class="footer__text">Ссылки</h3>
+                <ul>
+                  <li class="footer__item">
+                    <a class="footer__text" href="">Главная</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__text" href="#services">Сервисы</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__text" href="">Контакты</a>
+                  </li>
+                </ul>
+                <button class="button-footer">
+                  <div class="footer__whatsapp-left">
+                    <img style="width: 30px;" src="./images/Footer/whatsapp.png" alt="">
+                  </div>
+                  <a href="https://wa.me/996222911910"><p class="button__text">Для быстрого чата <br> с диспетчером</p></a>
+              </button>
+            </div>
+            <div class="footer__middle">
+                <div class="footer__logo">
+                  <img src="./images/Footer/logoWhite.png" alt="" style="width: 400px">
+                </div>
+            </div>
+            <div class="footer__right">
+              <h3 class="footer__text">С.A.H.T.A.<span style="color: red">D</span> </h3>
+              <ul>
+                <li class="footer__item">
+                  <img class="footer__icons" src="./images/ICONS FOR LEVI/location.svg" alt=""> 
+                  <a class="footer__text" href="#">Байик баатыра 126A,
+                    Бишкек Кыргызстан</a>
+                </li>
+                <li class="footer__item">
+                  <img class="footer__icons" src="./images/ICONS FOR LEVI/Email.svg" alt=""> 
+                  <a class="footer__text" href="">ops@cahtadispatch.com</a>
+                </li>
+                <li class="footer__item">
+                  <img class="footer__icons" src="./images/ICONS FOR LEVI/Email.svg" alt=""> 
+                  <a class="footer__text" href="">accounting@cahtadispatch.com</a>
+                </li>
+                <li class="footer__item">
+                  <img class="footer__icons" src="./images/ICONS FOR LEVI/TELEPHONE.svg" alt=""> 
+                  <a class="footer__text" href="">+996 222 911 910</a>
+                </li>
+                <li class="footer__item">
+                  <img class="footer__icons" src="./images/ICONS FOR LEVI/whatsapp.png" alt=""> 
+                  <a class="footer__text" href="">+996 222 911 910</a>
+                </li>
+                <section class="partners">
+                  <div class="container">
+                      <div class="partners_button">
+                        <div class="button_become">
+                          <a href="javascript:PopUpShow()">
+                            <button class="button-gray">
+                              <img src="./images/free-icon-hand-shake-493881 1.png" alt="">
+                              <p class="button__text">
+                                чтобы стать нашим партнером и поставщиком <br> <span style="font-size: 10px;">Нажмите здесь</span>
+                              </p>
+                          </button>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+              </section>
+              </ul>
+            </div>
+          </div>
+          <img class="rotate-phone" src="./images/rotating-mobile-phone-from-vertical-to-horizontal-position.png" alt="">
+        </div>
+        <div class="b-popup" id="popup1">
+          <div class="b-popup-content">
+            <form id="fcf-form-id" class="fcf-form-class" action="https://formsubmit.co/ops@cahtadispatch.com" method="POST">
+              <div class="fcf-form-group">
+                  <div class="fcf-input-group">
+                      <input type="text" id="Name" name="Name" class="fcf-form-control" placeholder="Your name" required>
+                  </div>
+              </div>
+      
+              <div  style="color: white;" class="fcf-form-group">
+                  <!-- <label for="Email" class="fcf-label"></label> -->
+                  <div class="fcf-input-group">
+                      <input type="email" id="Email" name="Email" class="fcf-form-control" placeholder="Your email address" required>
+                  </div>
+              </div>
+    
+              <div class="fcf-form-group">
+                <div class="fcf-input-group">
+                    <input type="text" id="text" name="text" class="fcf-form-control" placeholder="Your company name" required>
+                </div>
+            </div>
+      
+              <div class="fcf-form-group">
+              
+                  <div class="fcf-input-group">
+                      <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" placeholder="Your message" required></textarea>
+                  </div>
+              </div>
+      
+              <div class="fcf-form-group">
+                  <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+              </div>
+      
+      
+          </form>
+          <a style="color: white;" href="javascript:PopUpHide()">Hide form</a>
+          </div>
+      </div>
+      </footer>
+      <div class="akeconsa-udaneles">
+        <a href="#" title="Поднять страницы на сайтах вверх"><span class="fas fa-angle-up"></span></a>
+      </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/navbar.js"></script>
+        <script src="js/slider.js"></script>
+        <script>
+          $(document).ready(function(){
+        PopUpHide();
+      });
+      function PopUpShow(){
+        $("#popup1").show();
+      }
+      function PopUpHide(){
+        $("#popup1").hide();
+      }
+    </script>
+  </body>
+</html>
